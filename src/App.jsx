@@ -1,8 +1,15 @@
 import React from "react";
+import Primeiro from "./components/primeiro";
 
-function App(){
-    return 'Oi minha turma preferida!'
-    
+function App() {
+    return (
+
+        <div>
+            <p>Oregvdghd</p>
+            <Primeiro></Primeiro>
+        </div>
+    )
+
 }
 
 export default App
