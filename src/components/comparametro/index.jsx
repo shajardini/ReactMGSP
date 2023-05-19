@@ -1,4 +1,5 @@
 import React from "react";
+import './parametro.css'
 
 function ComParametro(props){
     return(

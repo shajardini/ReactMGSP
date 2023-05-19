@@ -10,6 +10,7 @@ function App() {
 
         <div>
             <ComParametro titulo="Dia 19/05" subtitulo="Aula React"/>
+            <ComParametro titulo="Dia 22/05" subtitulo="Aula de Cidadania"/>
             <p>{mensagem}</p>
             <Primeiro/>
         </div>
