@@ -2,5 +2,11 @@ import React from "react";
 
 
 export default function Primeiro(){
-    return 'Primeiro componente'
+
+    let mensagem = 'Teste'
+    return (
+        <div>
+            {mensagem}
+        </div>
+    )
 }
