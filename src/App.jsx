@@ -3,7 +3,7 @@ import Primeiro from "./components/primeiro";
 import ComParametro from "./components/comparametro";
 import DadosPessoais from "./components/dadospessoais";
 import Fragmento from "./components/fragmento";
-import Modelo from './components/layout'
+import Modelo from "./components/layout/modelo";
 
 function App() {
 
@@ -20,7 +20,7 @@ function App() {
             </Modelo>
 
 
-            <Modelo>
+            <Modelo titulo='Dados pessoais'>
                 <DadosPessoais />
             </Modelo>
 
