@@ -4,8 +4,8 @@ import './modelo.css'
 export default props =>{
    return(
     <div className='cartao'>
-        <div>{props.titulo}</div>
-        <div>{props.children}</div>
+        <div className='titulo'>{props.titulo}</div>
+        <div className='conteudo'>{props.children}</div>
     </div>
    ) 
 }

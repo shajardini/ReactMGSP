@@ -1,3 +1,28 @@
-.cartao{
-    border: 2px solid black;
+.cartao {
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;/*O CONTEÚDO EXCEDENTE É CORTADO*/
+    border-radius: 10px;
+    min-width: 200px;
+    background-color: blue;
 }
+
+.cartao .titulo{
+    padding: 5px 10px;
+    display: flex;/*tipo linha por padrão*/
+    flex-direction: row;
+    justify-content: center;/*Alinhamento na horizontal*/
+    font-size: 1.2em;
+    font-weight: bold;
+
+}
+
+.cartao .conteudo{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 1px;
+    flex: 1;/* Defini a flexibilidade de um elemento dentro de um contêiner. É usada junto ao Flexbox. Faz com que o elemento se expanda e ocupe todo o espaço disponível não utilizado dentro do contêiner flexível.*/
+}
+
