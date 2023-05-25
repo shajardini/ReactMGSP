@@ -13,9 +13,11 @@ function App() {
     return (
 
         <div className='App'>
+           
             <h1>Fundamentos React</h1>
 
 
+        <div className="cartoes">
 
             <Modelo titulo='Com fragmento'>
                 <Fragmento />
@@ -41,6 +43,7 @@ function App() {
             <Modelo>
                 <Primeiro />
             </Modelo>
+        </div>
         </div>
     )
 
