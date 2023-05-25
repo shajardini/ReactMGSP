@@ -4,6 +4,7 @@ import ComParametro from "./components/comparametro";
 import DadosPessoais from "./components/dadospessoais";
 import Fragmento from "./components/fragmento";
 import Modelo from "./components/layout/modelo";
+import './app.css'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
 
         <div className='App'>
             <h1>Fundamentos React</h1>
+
 
 
             <Modelo titulo='Com fragmento'>
