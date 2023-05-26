@@ -20,32 +20,37 @@ function App() {
 
         <div className="cartoes">
        
-            <Modelo titulo="Número Aleatório">
+            <Modelo titulo="Número Aleatório" cor='red'>
                 <NumeroAleatorio minimo={20} maximo={30}/>
             </Modelo>
 
-            <Modelo titulo='Com fragmento'>
+             <Modelo titulo="Número Aleatório" cor="green">
+                <NumeroAleatorio minimo={100} maximo={1000}/>
+            </Modelo>
+
+            
+
+            <Modelo titulo='Com fragmento' cor="pink">
                 <Fragmento />
             </Modelo>
 
-
-            <Modelo titulo='Dados pessoais'>
+            <Modelo titulo='Dados pessoais' cor="yellow">
                 <DadosPessoais />
             </Modelo>
 
-            <Modelo titulo='Com parâmetro'>
+            <Modelo titulo='Com parâmetro' cor="orange">
                 <ComParametro titulo="Dia 19/05" subtitulo="Aula React" />
             </Modelo>
 
-            <Modelo titulo='Com parâmetro'>
+            <Modelo titulo='Com parâmetro' cor="purple">
                 <ComParametro titulo="Dia 22/05" subtitulo="Aula de Cidadania" />
             </Modelo>
 
-            <Modelo titulo='Utilizando variável'>
+            <Modelo titulo='Utilizando variável' cor="grey">
                 <p>{mensagem}</p>
             </Modelo>
 
-            <Modelo titulo='Primeiro componente'>
+            <Modelo titulo='Primeiro componente' cor="orangered">
                 <Primeiro />
             </Modelo>
         </div>
