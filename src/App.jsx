@@ -5,6 +5,7 @@ import DadosPessoais from "./components/dadospessoais";
 import Fragmento from "./components/fragmento";
 import Modelo from "./components/layout/modelo";
 import './app.css'
+import NumeroAleatorio from "./components/numeroaleatorio";
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
 
 
         <div className="cartoes">
+       
+            <Modelo titulo="Número Aleatório">
+                <NumeroAleatorio minimo={20} maximo={30}/>
+            </Modelo>
 
             <Modelo titulo='Com fragmento'>
                 <Fragmento />
@@ -28,19 +33,19 @@ function App() {
                 <DadosPessoais />
             </Modelo>
 
-            <Modelo>
+            <Modelo titulo='Com parâmetro'>
                 <ComParametro titulo="Dia 19/05" subtitulo="Aula React" />
             </Modelo>
 
-            <Modelo>
+            <Modelo titulo='Com parâmetro'>
                 <ComParametro titulo="Dia 22/05" subtitulo="Aula de Cidadania" />
             </Modelo>
 
-            <Modelo>
+            <Modelo titulo='Utilizando variável'>
                 <p>{mensagem}</p>
             </Modelo>
 
-            <Modelo>
+            <Modelo titulo='Primeiro componente'>
                 <Primeiro />
             </Modelo>
         </div>
