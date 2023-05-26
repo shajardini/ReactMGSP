@@ -1,9 +1,16 @@
+import alunos from "../../dados/alunos"
+
 function Lista(){
+    const lista = alunos.map((alunos)=>{
+        return(
+            <li key={alunos.id}>{alunos.id}){alunos.nome} -- {alunos.nota}</li>
+        )
+    })
+
     return(
         <div>
             <ul>
-                <li>Nadmila - 7 </li>
-                <li>Luan - 7</li>
+                {lista}
             </ul>
         </div>
     )
